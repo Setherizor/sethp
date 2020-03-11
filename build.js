@@ -19,16 +19,19 @@ const data = {
   handle: chalk.white('setherizor'),
   work: chalk.white('Cybersecurity, Fullstack, Linux, JS'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('setherizor'),
-  npm: chalk.gray('https://npmjs.com/') + chalk.red('~setherizor'),
+  npm: chalk.gray('https://npmjs.com/') + chalk.red('~sethp'),
   github: chalk.gray('https://github.com/') + chalk.green('setherizor'),
-  linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('setherizor'),
-  web: chalk.cyan('https://dev.to/setherizor'),
+  linkedin:
+    chalk.gray('https://linkedin.com/in/') + chalk.blue('thesethparrish'),
+  dev: chalk.gray('https://dev.to/') + chalk.red('setherizor'),
+  web: chalk.cyan('https://sethp.cc'),
   npx: chalk.red('npx') + ' ' + chalk.white('setherizor'),
   labelWork: chalk.white.bold('       Work:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
   labelnpm: chalk.white.bold('        npm:'),
   labelGitHub: chalk.white.bold('     GitHub:'),
   labelLinkedIn: chalk.white.bold('   LinkedIn:'),
+  labelDev: chalk.white.bold('     Dev.to:'),
   labelWeb: chalk.white.bold('        Web:'),
   labelCard: chalk.white.bold('       Card:')
 }
@@ -41,6 +44,7 @@ const twittering = `${data.labelTwitter}  ${data.twitter}`
 const npming = `${data.labelnpm}  ${data.npm}`
 const githubing = `${data.labelGitHub}  ${data.github}`
 const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`
+const deving = `${data.labelDev}  ${data.dev}`
 const webing = `${data.labelWeb}  ${data.web}`
 const carding = `${data.labelCard}  ${data.npx}`
 
@@ -59,6 +63,8 @@ const output =
   newline + // data.labelGitHub + data.github
   linkedining +
   newline + // data.labelLinkedIn + data.linkedin
+  deving + // data.labelDev + data.dev
+  newline +
   webing +
   newline +
   newline + // data.labelWeb + data.web
